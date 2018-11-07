@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>hw2</title>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body class="b-container">
+        <!-- задание №1 -->
+        <div class="b-task1Form">
+            <h2 class="b-task1Form__title">
+                Задание №1
+            </h2>
+            <div class= "b-task1Form__text">
+                var a = 1, b = 1, c, d; <br>
+                c = ++a; alert(c); // 2 получаем так как а=1 и инкрементация происходит перед привоением значения<br>
+                d = b++; alert(d); // 1 получаем так как d=1 и инкрементация происходит после привоениея значения<br>
+                c = (2+ ++a); alert(c); // 5 получаем так как в а = 2 после первого действия и инкрементация происходит перед привоением значения + 2<br>
+                d = (2+ b++); alert(d); // 4 получаем так как в b = 1 второго первого действия и инкрементация происходит после привоением значения + 2<br>
+                alert(a); // 3 после первого действия а=2(инкремент 1+1) после 3го действия a=3(инкремент2+1)<br>
+                alert(b); // 3 после второго действия b=2(инкремент 1+1) после 4го действия b=3(инкремент2+1)<br>
+            </div>
+        </div>
+        <!-- задание №2 -->
+        <div class="b-task2Form">
+            <h2 class="b-task2Form__title">
+                Задание №2
+            </h2>
+            <div class= "b-task2Form__text">
+                var a = 2; <br>
+                var x = 1 + (a *= 2);<br>
+                х=
+                <div id="task2Value" class="b-task2Form__task2Value"> </div>
+            </div>
+        </div>
+        <!-- задание №3 -->
+        <div class="b-task3Form">
+            <h2 class="b-task3Form__title">
+                Задание №3
+            </h2>
+            <div class="b-task3Form__greed">
+                <div class= "b-task3Form__text">
+                    * если a и b положительные, вывести их разность; <br>
+                    * если а и b отрицательные, вывести их произведение;<br>
+                    * если а и b разных знаков, вывести их сумму;<br>
+                    ноль можно считать положительным числом<br>
+                </div>
+                <div class="b-task3Form__input">
+                    Введите а- <input type="text" id="task3a" class="b-task3Form__input_size">
+                    Введите b- <input type="text" id="task3b" class="b-task3Form__input_size">
+                    <input type="submit" value="посчитать" OnClick="task3function();"/>
+                    <div id="task3Value" class="b-task3Form__task3Value"></div>
+                </div>
+            </div>
+        </div>
+        <script src="./JS/les.js" async></script>
+    </body>
+</html>

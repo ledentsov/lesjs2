@@ -1,0 +1,93 @@
+
+.b-container{
+    width: auto;
+    background-color: #ddc2c2;
+}
+.b-task1Form{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    padding: 55px;
+    clear: both;
+    background-color: #a16262;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(80, 79, 75, 0.685);
+
+    &__title{
+        margin-top: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+
+    }
+    &__text{
+        font-family: cursive;
+        font-size: 18px;
+        
+    }
+}
+.b-task2Form{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 55px;
+    clear: both;
+    background-color: #a16262;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(80, 79, 75, 0.685);
+
+    &__title{
+        margin-top: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+
+    }
+    &__text{
+        font-family: cursive;
+        font-size: 18px;
+    }
+    &__task2Value{
+        display: inline;
+    }
+}
+.b-task3Form{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 55px;
+    clear: both;
+    background-color: #a16262;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(80, 79, 75, 0.685);
+
+    &__title{
+        margin-top: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+
+    }
+    &__text{
+        font-family: cursive;
+        font-size: 18px;
+    }
+    &__greed{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    &__task3Value{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color: #143170;
+        margin-top: 30px;
+    }
+    &__input{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        &_size{
+            width: 30px;
+        }
+    }
+    
+    
+}
