@@ -13,10 +13,10 @@
             </h2>
             <div class= "b-task1Form__text">
                 var a = 1, b = 1, c, d; <br>
-                c = ++a; alert(c); // 2 получаем так как а=1 и инкрементация происходит перед привоением значения<br>
-                d = b++; alert(d); // 1 получаем так как d=1 и инкрементация происходит после привоениея значения<br>
-                c = (2+ ++a); alert(c); // 5 получаем так как в а = 2 после первого действия и инкрементация происходит перед привоением значения + 2<br>
-                d = (2+ b++); alert(d); // 4 получаем так как в b = 1 второго первого действия и инкрементация происходит после привоением значения + 2<br>
+                c = ++a; alert(c); // 2 получаем так как а=1 и инкрементирование происходит перед присвоением значения<br>
+                d = b++; alert(d); // 1 получаем так как d=1 и инкрементирование происходит после присвоениея значения<br>
+                c = (2+ ++a); alert(c); // 5 получаем так как в а = 2 после первого действия и инкрементирование происходит перед присвоением значения + 2<br>
+                d = (2+ b++); alert(d); // 4 получаем так как в b = 1 второго первого действия и инкрементирование происходит после присвоением значения + 2<br>
                 alert(a); // 3 после первого действия а=2(инкремент 1+1) после 3го действия a=3(инкремент2+1)<br>
                 alert(b); // 3 после второго действия b=2(инкремент 1+1) после 4го действия b=3(инкремент2+1)<br>
             </div>
@@ -52,6 +52,43 @@
                     <div id="task3Value" class="b-task3Form__task3Value"></div>
                 </div>
             </div>
+        </div>
+        <!-- задание №4 -->
+        <div class="b-task4Form">
+            <h2 class="b-task4Form__title">
+                Задание №4
+            </h2>
+            
+                <div class= "b-task4Form__text">
+                    Присвоить переменной а значение в промежутке [0..15]. С помощью оператора switch организовать вывод чисел от a до 15.<br><br>
+                </div>
+                <div class="b-task4Form__input">
+                    Введите а- <input type="text" id="task4a" class="b-task4Form__input_size">
+                    <input type="submit" value="посчитать" OnClick="task4function();"/>
+                    <div id="task4Value" class="b-task4Form__task4Value"></div>
+                </div>
+            
+        </div>
+        <!-- задание №5 -->
+        <div class="b-task5Form">
+            <h2 class="b-task5Form__title">
+                Задание №5
+            </h2>
+            
+                <div class= "b-task5Form__text">
+                    Реализовать основные 4 арифметические операции в виде функций с двумя параметрами.<br> 
+                    Обязательно использовать оператор return.<br><br>
+                </div>
+                <div class="b-task5Form__input">
+                    Введите а- <input type="text" id="task5a" class="b-task5Form__input_size">
+                    Введите b- <input type="text" id="task5b" class="b-task5Form__input_size">
+                    <input type="submit" value="посчитать" OnClick="task5function();"/>
+                    <div id="task5ValuePlus" class="b-task5Form__task5Value"></div>
+                    <div id="task5ValueMultiply" class="b-task5Form__task5Value"></div>
+                    <div id="task5ValueMinus" class="b-task5Form__task5Value"></div>
+                    <div id="task5ValueDivision" class="b-task5Form__task5Value"></div>
+                </div>
+            
         </div>
         <script src="./JS/les.js" async></script>
     </body>
