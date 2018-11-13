@@ -181,4 +181,115 @@
 .b-task5Form__input_size {
   width: 30px;
 }
+
+.b-task6Form {
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 55px;
+  clear: both;
+  background-color: #a16262;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px rgba(80, 79, 75, 0.685);
+          box-shadow: 0 0 15px rgba(80, 79, 75, 0.685);
+}
+
+.b-task6Form__title {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.b-task6Form__text {
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.b-task6Form__task6Value {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #143170;
+  margin-top: 18px;
+}
+
+.b-task6Form__input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.b-task6Form__input_size {
+  width: 30px;
+}
+
+.b-task7Form {
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 55px;
+  clear: both;
+  background-color: #a16262;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px rgba(80, 79, 75, 0.685);
+          box-shadow: 0 0 15px rgba(80, 79, 75, 0.685);
+}
+
+.b-task7Form__title {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.b-task7Form__text {
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.b-task7Form__task7Value {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #143170;
+  margin-top: 18px;
+}
+
+.b-task8Form {
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 55px;
+  clear: both;
+  background-color: #a16262;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 15px rgba(80, 79, 75, 0.685);
+          box-shadow: 0 0 15px rgba(80, 79, 75, 0.685);
+}
+
+.b-task8Form__title {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.b-task8Form__text {
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.b-task8Form__input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.b-task8Form__input_size {
+  width: 30px;
+}
+
+.b-task8Form__task8Result {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #143170;
+  margin-top: 18px;
+}
 /*# sourceMappingURL=style.css.map */

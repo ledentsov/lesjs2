@@ -98,3 +98,52 @@ function task5function(){
         return task5a / task5b;
     }
 }
+// Реализовать функцию с тремя параметрами: function mathOperation(arg1, arg2, operation), 
+// где arg1, arg2 – значения аргументов, operation – строка с названием операции. 
+// В зависимости от переданного значения операции выполнить одну из арифметических операций 
+// (использовать функции из пункта 3) и вернуть полученное значение (использовать switch).
+function task6function(){
+    let a = document.getElementById("task6a").value;
+    let b = document.getElementById('task6b').value;
+    let operation = document.getElementById("task6_operation").value;
+    task6Value = task6functionOperation(a, b, operation);
+    function task6functionOperation(task6a, task6b,task6_operation){
+        switch (task6_operation){
+            case'+':
+                return Number(task6a) + Number(task6b);
+            case'-':
+                return Number(task6a) - Number(task6b);
+            case'*':
+                return Number(task6a) * Number(task6b);
+            case'/':
+                return Number(task6a) / Number(task6b);
+            default:
+                return 'введеный знак некорректен';
+        }
+        
+    }
+    document.getElementById("task6Value").innerHTML = 'Результат операции '+ a + operation + b + ' = ' + task6Value;
+}
+//Сравнить null и 0. Попробуйте объяснить результат
+function task7function(){
+    task7result1= null==0;
+    task7result2= null>=0;
+    task7result3= null===0;
+    document.getElementById("task7Value1").innerHTML = 'Результат сравнения null==0 ' + task7result1;
+    document.getElementById("task7Value2").innerHTML = 'Результат сравнения null>=0 ' + task7result2;
+    document.getElementById("task7Value3").innerHTML = 'Результат сравнения null===0 ' + task7result3;
+    document.getElementById("task7Value4").innerHTML = 'Значения null и undefined равны == друг другу и не равны ничему другому, но при этом алгоритмы проверки равенства == и сравнения >= > < <= работают по-разному, сранение приводит Null к 0 ';
+}
+// С помощью рекурсии организовать функцию возведения числа в степень. 
+// Формат: function power(val, pow), где val – заданное число, pow – степень.
+function task8function(){
+    let a = document.getElementById("task8a").value;
+    let degree = document.getElementById("task8_degree").value;
+    task8result = power(a, degree);
+    function power(val, pow){
+         if (pow > 1) 
+            val *= power(val,pow-1);
+        return val;
+    }
+    document.getElementById("task8Result").innerHTML = 'Результат возведения '+a+' в степень '+ degree+' = ' + task8result;
+}
